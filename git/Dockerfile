@@ -1,4 +1,4 @@
-FROM docker:19.03.12-git
+FROM docker:18.09.9-git
 
 RUN apk update && \
     apk add -U openssl ca-certificates wget unzip
