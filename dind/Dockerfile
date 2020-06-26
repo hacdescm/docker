@@ -1,4 +1,4 @@
-FROM docker:18.09.6-dind
+FROM docker:19.03.12-dind
 
 RUN apk update && \
     apk add -U openssl ca-certificates wget unzip
